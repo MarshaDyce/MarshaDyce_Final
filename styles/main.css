@@ -1,0 +1,145 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+/*  font-family:'Open Sans', 'sans-serif', Helvetica, Arial, sans-serif;
+*/font-size: 28px;
+  background-color: #E0F0EC;
+}
+
+header {
+  background-image: url('../images/background.png');
+  width: 100%;
+  height: 720px;
+  background-size: cover;
+}
+
+
+h1 {
+  font-family:'Ubuntu', 'sans-serif'; 
+  font-weight:400;
+  font-size: 106px;
+  color: #FF5D26;
+}
+/*not used yet*/
+
+h2 {
+  font-family:'Ubuntu', 'sans-serif'; 
+  font-weight: 400;
+  font-size: 106px;
+}
+
+h3 {
+  font-family:'Ubuntu', 'sans-serif'; 
+  font-size: 52px;
+  color: #131313;
+}
+
+h4{
+  font-family:'Ubuntu', 'sans-serif'; 
+ font-size: 36px;
+  color: #FF5D26
+}
+
+p {
+  font-size: 31px;
+  color: #131313;
+}
+
+ul#topnav {
+  font-family: 'Ubuntu', 'sans-serif', sans-serif;
+  float: right;
+  margin-top: 10px;
+}
+ul#topnav li {
+  display:inline; 
+  margin-right: 40px;
+}
+ul#topnav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul#topnav a:hover {
+ color:#FF5D26;
+}
+
+/*the phone*/
+#leftheader {
+  float: left;
+  margin-top: 40px;
+  margin-left: 90px;
+}
+/*text and logo*/
+#rightheader {
+  float: left;
+  text-align: center;
+/*  width: 488px;
+*/  margin-top: 240px;
+}
+
+main {
+  padding: 40px 0px;
+}
+
+/*list*/
+main ul li {
+  display: inline-block;
+  width: 300px;
+  margin: 15px 40px;
+  text-align: center;
+}
+
+.leftdetails{
+  width: 558px;
+  float: left;
+}
+
+.rightabout{
+width: 547px;
+float: left;
+}
+
+footer {
+  background-color: #131313;
+  width: 100%;
+  height: 209px;
+  padding-top: 50px;
+  float: right;
+  clear: both;
+}
+
+/*media q*/
+
+/*phone*/
+@media only screen and (min-width: 480px) and (max-width: 900px){
+	
+ul#topnav {
+  float: center;
+}
+
+main ul li {
+/*  display: inline-block;
+*/  width: 10%;
+  margin: 15px 40px;
+  text-align: center;
+}
+}
+
+/*phone*/
+@media screen and (min-width: 320px) and (max-width: 480px) { 
+	ul#topnav {
+    float: left;
+}
+
+}
+
+
